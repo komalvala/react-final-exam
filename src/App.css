@@ -66,7 +66,6 @@
   color: white !important;
 }
 
-/* Mobile adjustments */
 @media (max-width: 768px) {
   .navbar-brand {
     font-size: 1.3rem;
@@ -76,7 +75,7 @@
 .product-card {
   border: none;
   border-radius: 5px;
-  width: 70%;
+  width: 90%;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   background-color: #fff;

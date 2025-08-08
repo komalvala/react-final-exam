@@ -26,7 +26,7 @@ const ProductList = () => {
 
   return (
     <div>
-      <div className="d-flex gap-2 mb-3">
+      <div className="d-flex gap-3 mb-4">
         <input
           className="form-control"
           placeholder="Search by title..."
@@ -48,7 +48,7 @@ const ProductList = () => {
 
       <div className="row">
         {filtered.map((p) => (
-          <div className="col-md-4 mb-4" key={p.id}>
+          <div className="col-md-3 mb-4" key={p.id}>
             <ProductItem {...p} />
           </div>
         ))}
