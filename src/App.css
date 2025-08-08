@@ -1,0 +1,135 @@
+/* Base font and smoothness */
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Brand - Nykaa pink + bold */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #e91e63 !important;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #d81b60 !important;
+}
+
+/* Nav links */
+.nav-link {
+  font-weight: 500;
+  color: #555 !important;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #e91e63 !important;
+  transform: translateY(-1px);
+}
+
+/* Email display styling */
+.text-muted.small {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #777 !important;
+}
+
+/* Buttons */
+.btn-outline-primary {
+  border-color: #e91e63 !important;
+  color: #e91e63 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #e91e63 !important;
+  color: white !important;
+}
+
+.btn-primary {
+  background-color: #e91e63 !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #d81b60 !important;
+}
+
+.btn-outline-danger {
+  border-color: #ff4d4d !important;
+  color: #ff4d4d !important;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff4d4d !important;
+  color: white !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+}
+
+.product-card {
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+
+.product-card img {
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.product-card .card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.product-card .card-text {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.product-card .fw-bold {
+  color: #e91e63;
+  font-size: 1.05rem;
+}
+
+.product-card .btn-outline-primary {
+  border-color: #ff4081;
+  color: #ff4081;
+}
+
+.product-card .btn-outline-primary:hover {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.product-card .btn-outline-danger {
+  border-color: #e53935;
+  color: #e53935;
+}
+
+.product-card .btn-outline-danger:hover {
+  background-color: #e53935;
+  color: #fff;
+}
